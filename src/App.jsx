@@ -4,9 +4,9 @@ import Bookmarks from './components/Bookmarks/Bookmarks.jsx'
 import Header from './components/Header/Header.jsx'
 function App() {
   return (
-    <div className='container mx-auto p-10'>
+    <div>
     <Header></Header>
-    <div className='flex mt-10'>
+    <div className='flex gap-10 container mx-auto m-5 md:m-12 lg:m-20'>
      <Blogs></Blogs>
      <Bookmarks></Bookmarks>
     </div>

@@ -1,0 +1,103 @@
+[
+    {
+      "id": 1,
+      "title": "Mastering the Art of Kombucha Brewing",
+      "cover": "../src/assets/images/lutz-wernitz-pcW5bR7gSJ4-unsplash.jpg",
+      "author": "Olivia Green",
+      "author_img": "../src/assets/images/Ellipse 3.jpg",
+      "posted_date": "2024-05-23",
+      "reading_time": "12 minutes",
+      "hashtags": ["kombucha", "fermentation", "drinks", "healthy living"]
+    },
+    {
+      "id": 2,
+      "title": "Essential JavaScript Tips for Beginners",
+      "cover": "../src/assets/images/oskar-yildiz-gy08FXeM2L4-unsplash.jpg",
+      "author": "David Lee",
+      "author_img": "../src/assets/images/Ellipse 6.jpg",
+      "posted_date": "2024-05-21",
+      "reading_time": "8 minutes",
+      "hashtags": ["javascript", "programming", "web development"]
+    },
+    {
+      "id": 3,
+      "title": "Top 5 Must-Have Travel Apps for Adventurers",
+      "cover": "../src/assets/images/clay-banks-Uvr33mRw7CM-unsplash.jpg",
+      "author": "Emily Jones",
+      "author_img": "../src/assets/images/Ellipse 4.jpg",
+      "posted_date": "2024-05-19",
+      "reading_time": "10 minutes",
+      "hashtags": ["travel", "apps", "adventure", "exploration"]
+    },
+    {
+      "id": 4,
+      "title": "Understanding the Power of Compound Interest",
+      "cover": "../src/assets/images/kenny-eliason-AOJGuIJkoBc-unsplash.jpg",
+      "author": "Michael Brown",
+      "author_img": "../src/assets/images/Ellipse 1.jpg",
+      "posted_date": "2024-05-20",
+      "reading_time": "15 minutes",
+      "hashtags": ["finance", "investing", "money management", "personal growth"]
+    },
+    {
+      "id": 5,
+      "title": "Creating a Relaxing Home Spa Experience",
+      "cover": "../src/assets/images/huum-NHLS5hOSH0c-unsplash.jpg",
+      "author": "Sarah Miller",
+      "author_img": "../src/assets/images/Ellipse 7.jpg",
+      "posted_date": "2024-05-22",
+      "reading_time": "7 minutes",
+      "hashtags": ["self-care", "wellness", "bathtime", "relaxation"]
+    },
+    {
+      "id": 6,
+      "title": "A Beginner's Guide to Bonsai Trees",
+      "cover": "../src/assets/images/cody-west-kxYc5nU-LWQ-unsplash.jpg",
+      "author": "William Garcia",
+      "author_img": "../src/assets/images/Ellipse 10.jpg",
+      "posted_date": "2024-05-18",
+      "reading_time": "13 minutes",
+      "hashtags": ["gardening", "plants", "bonsai", "nature"]
+    },
+    {
+      "id": 7,
+      "title": "Building a Strong Personal Brand on Social Media",
+      "cover": "../src/assets/images/merakist-CNbRsQj8mHQ-unsplash.jpg",
+      "author": "Olivia Davis",
+      "author_img": "../src/assets/images/Ellipse 12.jpg",
+      "posted_date": "2024-05-21",
+      "reading_time": "9 minutes",
+      "hashtags": ["social media", "branding", "marketing", "personal development"]
+    },
+    {
+        "id": 8,
+        "title": "The History of Pizza: From Ancient Times to Modern Toppings",
+        "cover": "../src/assets/images/ivan-torres-MQUqbmszGGM-unsplash.jpg",
+        "author": "Noah Thomas",
+        "author_img": "../src/assets/images/Ellipse 11.jpg",
+        "posted_date": "2024-05-24",
+        "reading_time": "18 minutes",
+        "hashtags": ["food", "history", "pizza", "culture"]
+      },
+      {
+        "id": 9,
+        "title": "5 Creative Ways to Repurpose Old Clothes",
+        "cover": "../src/assets/images/fujiphilm-ojZ4wJNUM5w-unsplash.jpg",
+        "author": "Sophia Brown",
+        "author_img": "../src/assets/images/Ellipse 13.jpg",
+        "posted_date": "2024-05-22",
+        "reading_time": "9 minutes",
+        "hashtags": ["fashion", "sustainability", "diy", "upcycling"]
+      },
+      {
+        "id": 10,
+        "title": "Conquering Public Speaking Anxiety: Tips for Confidence",
+        "cover": "../src/assets/images/scancode-productions-bWw7IiexiXQ-unsplash.jpg",
+        "author": "Ethan Garcia",
+        "author_img": "../src/assets/images/Ellipse 5.jpg",
+        "posted_date": "2024-05-20",
+        "reading_time": "11 minutes",
+        "hashtags": ["communication", "public speaking", "confidence", "personal development"]
+      }
+    ]
+    
