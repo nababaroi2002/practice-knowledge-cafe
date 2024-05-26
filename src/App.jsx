@@ -7,18 +7,20 @@ function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [readingTime, setReadingTime] = useState(0)
   const handleAddToBookmarks = blog =>{
-   const newBookmarks = [...bookmarks, blog]
+  const newBookmarks = [...bookmarks, blog]
    setBookmarks(newBookmarks)
   }
-  const handleMarkAsRead = time =>{
+  const handleMarkAsRead = (time, id) =>{
     // console.log(`marking as read ${time}`);
     const newReadinTime = readingTime + time;
-    setReadingTime(newReadinTime)
+    setReadingTime(newReadinTime);
+    const remainingBokkmarks = bookmarks.filter(bookmark=> bookmark.id !== id);
+    setBookmarks(remainingBokkmarks)
   }
   return (
     <div>
     <Header></Header>
-    <div className='flex gap-10 container mx-auto m-5 md:m-12 lg:m-20'>
+    <div className='flex gap-10 container mx-auto p-5 md:p-12 lg:p-20'>
      <Blogs handleAddToBookmarks={handleAddToBookmarks} handleMarkAsRead={handleMarkAsRead} ></Blogs>
      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
     </div>

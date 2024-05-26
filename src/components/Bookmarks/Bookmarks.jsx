@@ -12,7 +12,7 @@ const Bookmarks = ({bookmarks, readingTime}) => {
       <div className='flex flex-col gap-5 p-10 bg-[#E8E2E2] rounded-xl '>
       <h3 className='text-xl font-bold'>Bookmarked blogs: {bookmarks.length}</h3>
       {
-        bookmarks.map(bookmark => <Bookmark key={bookmark} bookmark={bookmark}></Bookmark>)
+        bookmarks.map((bookmark, idx) => <Bookmark key={idx} bookmark={bookmark}></Bookmark>)
       }
       </div>
     </div>
